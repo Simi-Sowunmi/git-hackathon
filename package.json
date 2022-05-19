@@ -1,0 +1,31 @@
+{
+  "name": "git-hackathon",
+  "version": "1.0.0",
+  "description": "Girls In Tech Bootcamp Cohort 4.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simi-Sowunmi/git-hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simi-Sowunmi/git-hackathon/issues"
+  },
+  "homepage": "https://github.com/Simi-Sowunmi/git-hackathon#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
